@@ -413,7 +413,7 @@ def main():
             if len(enemies) > 0:
                 add_bullet()
 
-        if kamikaze_kill_count > 119 and not boss_spawned:
+        if kamikaze_kill_count > 1 and not boss_spawned:
             add_boss()
             if len(bosses) == 0:
                 add_bullet()
